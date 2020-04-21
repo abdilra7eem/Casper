@@ -3,19 +3,43 @@
 
 :root {
     /* Colours */
-    --blue: #3eb0ef;
+    --blue: #1a7db3;
     --green: #a4d037;
     --purple: #ad26b4;
     --yellow: #fecd35;
     --red: #f05230;
-    --darkgrey: #15171A;
-    --midgrey: #738a94;
+    --darkgrey: #15171A; 
+    --midgrey: #46545a;
     --lightgrey: #c5d2d9;
     --whitegrey: #e5eff5;
     --pink: #fa3a57;
     --brown: #a3821a;
     --darkmode: color(var(--darkgrey) l(+2%));
 }
+
+@font-face {
+    font-family:'Noto Naskh Arabic';
+    font-style:normal;
+    font-weight:400;
+    src:url(//staging.aqlami.net/assets/fonts/NotoNaskhArabic-Regular.eot);
+    src:url(//staging.aqlami.net/assets/fonts/NotoNaskhArabic-Regular.eot) format('embedded-opentype'),
+    url(//staging.aqlami.net/assets/fonts/NotoNaskhArabic-Regular.woff2) format('woff2'),
+    url(//staging.aqlami.net/assets/fonts/NotoNaskhArabic-Regular.woff) format('woff'),
+    url(//staging.aqlami.net/assets/fonts/NotoNaskhArabic-Regular.ttf) format('truetype')
+   }
+@font-face {
+    font-family:'Noto Naskh Arabic';
+    font-style:normal;
+    font-weight:700;
+    src:url(//staging.aqlami.net/assets/fonts/NotoNaskhArabic-Bold.eot);
+    src:url(//staging.aqlami.net/assets/fonts/NotoNaskhArabic-Bold.eot) format('embedded-opentype'),
+    url(//staging.aqlami.net/assets/fonts/NotoNaskhArabic-Bold.woff2) format('woff2'),
+    url(//staging.aqlami.net/assets/fonts/NotoNaskhArabic-Bold.woff) format('woff'),
+    url(//staging.aqlami.net/assets/fonts/NotoNaskhArabic-Bold.ttf) format('truetype')
+}
+
+
+
 
 /* Reset
 /* ---------------------------------------------------------- */
@@ -131,7 +155,7 @@ img {
 }
 html {
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: 'Noto Naskh Arabic', Arial, sans-serif, serif;
 
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
@@ -282,7 +306,7 @@ html {
 body {
     overflow-x: hidden;
     color: color(var(--midgrey) l(-30%));
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-family: -apple-system, 'Noto Naskh Arabic', Arial, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     font-size: 1.6rem;
     line-height: 1.6em;
     font-weight: 400;

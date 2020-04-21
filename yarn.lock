@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@tryghost/pretty-cli@1.2.5":
-  version "1.2.5"
-  resolved "https://registry.yarnpkg.com/@tryghost/pretty-cli/-/pretty-cli-1.2.5.tgz#889e355f81e9d4fb7f85004708fa5878a4663a2c"
-  integrity sha512-mWpSqrZEVxZaYJtK2okZdr4/U0mScxk1bQDqZzxQ49Pk9qoMkD6YAUX7etfkgs5iGTIcDVbOY+KrVphr1hFSew==
+"@tryghost/pretty-cli@1.2.4":
+  version "1.2.4"
+  resolved "https://registry.yarnpkg.com/@tryghost/pretty-cli/-/pretty-cli-1.2.4.tgz#c66d6ec5b805218bcaa0071fbc8e61416ce64747"
+  integrity sha512-zRcfYbJ2mu9gfWAgcYxKPXbolR+gznlZv5gPWB6S4/HJ499CX51GAeGSiPw8Z939Kt+KjoneZClHkXJTSq2FxQ==
   dependencies:
     chalk "^3.0.0"
     sywac "^1.2.1"
@@ -38,9 +38,9 @@
   integrity sha512-rr+OQyAjxze7GgWrSaJwydHStIhHq2lvY3BOC2Mj7KnzI7XK0Uw1TOOdI9lDoajEbSWLiYgoo4f1R51erQfhPQ==
 
 "@types/node@*":
-  version "13.13.1"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-13.13.1.tgz#1ba94c5a177a1692518bfc7b41aec0aa1a14354e"
-  integrity sha512-uysqysLJ+As9jqI5yqjwP3QJrhOcUwBjHUlUxPxjbplwKoILvXVsmYWEhfmAQlrPfbRZmhJB007o4L9sKqtHqQ==
+  version "13.13.0"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-13.13.0.tgz#30d2d09f623fe32cde9cb582c7a6eda2788ce4a8"
+  integrity sha512-WE4IOAC6r/yBZss1oQGM5zs2D7RuKR6Q+w+X2SouPofnWn+LbCqClRyhO3ZE7Ix8nmFgo/oVuuE01cJT2XB13A==
 
 "@types/q@^1.5.1":
   version "1.5.2"
@@ -1891,7 +1891,6 @@ fsevents@^1.2.7:
   dependencies:
     bindings "^1.5.0"
     nan "^2.12.1"
-    node-pre-gyp "*"
 
 function-bind@^1.1.1:
   version "1.1.1"
@@ -2076,12 +2075,12 @@ graceful-fs@^4.0.0, graceful-fs@^4.1.11, graceful-fs@^4.1.2, graceful-fs@^4.1.6,
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.2.3.tgz#4a12ff1b60376ef09862c2093edd908328be8423"
   integrity sha512-a30VEBm4PEdx1dRB7MFK7BejejvCvBronbLjht+sHuGYj8PHs7M/5Z+rt5lw551vZ7yfTCj4Vuyy3mSJytDWRQ==
 
-gscan@3.5.2:
-  version "3.5.2"
-  resolved "https://registry.yarnpkg.com/gscan/-/gscan-3.5.2.tgz#9f696f7134c1ef8c2234b5137e15458df2872c9f"
-  integrity sha512-Ue85VySXf5k1Tqmw8Mx21VyjNAe0964eJeZmqcmkKXjySt9QVP1UTP4MWnq0/oGMmg2oPvYEIIO13FYtWWN6VA==
+gscan@^3.5.1:
+  version "3.5.1"
+  resolved "https://registry.yarnpkg.com/gscan/-/gscan-3.5.1.tgz#9f78c9678d73e0c7fc6beaeedf56671807811989"
+  integrity sha512-0H6etw+GL7blKo06Gw9KDh6B+2RMriXGO1WLeBwqmOFRtQoRXPf1JHldeI78yc3wR11mqVGpxi06BgNKUdDsiQ==
   dependencies:
-    "@tryghost/pretty-cli" "1.2.5"
+    "@tryghost/pretty-cli" "1.2.4"
     "@tryghost/zip" "^1.0.0"
     bluebird "^3.4.6"
     chalk "^3.0.0"

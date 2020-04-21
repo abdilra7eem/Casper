@@ -1,0 +1,10 @@
+wget http://static.hsoubcdn.com/assets/fonts/NotoNaskhArabic-Regular.eot
+wget http://static.hsoubcdn.com/assets/fonts/NotoNaskhArabic-Regular.eot
+wget http://static.hsoubcdn.com/assets/fonts/NotoNaskhArabic-Regular.woff2
+wget http://static.hsoubcdn.com/assets/fonts/NotoNaskhArabic-Regular.woff
+wget http://static.hsoubcdn.com/assets/fonts/NotoNaskhArabic-Regular.ttf
+wget http://static.hsoubcdn.com/assets/fonts/NotoNaskhArabic-Bold.eot
+wget http://static.hsoubcdn.com/assets/fonts/NotoNaskhArabic-Bold.eot
+wget http://static.hsoubcdn.com/assets/fonts/NotoNaskhArabic-Bold.woff2
+wget http://static.hsoubcdn.com/assets/fonts/NotoNaskhArabic-Bold.woff
+wget http://static.hsoubcdn.com/assets/fonts/NotoNaskhArabic-Bold.ttf
